@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.col{
+	width: 100px;
+	color: white;
+	height: 500px;
+	position: fixed;
+	background: black;
+}
+.red-cube{
+	background: red;
+	margin: 0 auto;
+	display: block;
+	padding: 40px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	opacity: 1;
+	transition: 1s;
+	position: absolute;
+}
+
+.red-cube.show{
+	opacity:1;
+	background: blue;
+}
+.col.show{
+	background: blue;
+}	
