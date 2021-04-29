@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#menu form{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin: auto;
+}
+#menu form input, #menu form select, #menu form textarea{
+	margin: 5px;
+}

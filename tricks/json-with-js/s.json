@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Naruto",
+		"age": 29,
+		"secretIdentity": "Sakura",
+		"powers": [
+			"Rasengan",
+			"Shadow Clones",
+			"Sennin mode"
+		]
+	},
+	{
+		"name": "Sasuke",
+		"age": 17,
+		"secretIdentity": "Karin",
+		"powers": [
+			"Chidori",
+			"Sharingan",
+			"Amaterasu"
+		]
+	}
+]

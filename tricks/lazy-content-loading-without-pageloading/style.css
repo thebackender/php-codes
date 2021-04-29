@@ -1,0 +1,38 @@
+body{
+	overflow: hidden;
+}
+.preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preloader img{
+	width: 50px;
+	height: auto;
+	margin:auto;
+}
+/* Loading */
+.loading{
+	width: 100%;
+	height: auto;
+}
+.loading .loader{
+	width: 100%;
+	height: 200px;
+	z-index: 1000;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.loading .loader img{
+	width: 25px;
+	height: auto;
+	margin: auto;
+}
